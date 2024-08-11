@@ -126,6 +126,8 @@ class _HomePageState extends State<HomePage> {
           scrollDirection: Axis.horizontal,
             itemCount: categories.length,
             itemBuilder: (BuildContext context, int index){
+
+              //* Transicion para poder pasar a otra pagina
           return InkWell(
             onTap: (){
               final _offset = (catListKey.currentContext!.findRenderObject() as RenderBox)

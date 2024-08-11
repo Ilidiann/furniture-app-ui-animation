@@ -11,9 +11,9 @@ class RoundedButtons extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ElevatedButton(
-          style: ElevatedButton.styleFrom(
-              primary: Colors.white,
-              onPrimary: Colors.black,
+          style: ElevatedButton.styleFrom(backgroundColor:  Colors.white,
+              
+             // onPrimary: Colors.black,
               minimumSize: const Size(110, 38),
               padding: const EdgeInsets.symmetric(horizontal: 22),
               shape: const RoundedRectangleBorder(
